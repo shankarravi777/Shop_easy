@@ -61,7 +61,7 @@ def cart(request):
         order = {'get_cart_total': 0, 'get_cart_items': 0}
 
     context = {'items': items, 'order': order}
-    return render(request, 'registration/cart.html', context)
+return render(request, 'registration/cart.html', context)
 
 
 def checkout(request):
